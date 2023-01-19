@@ -42,11 +42,12 @@ class EmployeeAdmin(admin.ModelAdmin):
         from django.contrib import admin
         from .models import Employee,EmployeeAdmin
         admin.site.register(Employee,EmployeeAdmin)
-        ```
+
+```
 
 ## OUTPUT
 
-![OUTPUT](./out,png)
+![OUTPUT](./out.png)
 
 
 ## RESULT
